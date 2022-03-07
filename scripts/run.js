@@ -1,5 +1,5 @@
 const main = async () => {
-	const HelloContract = hre.ethers.getContractFactory("HelloWorld");
+	const HelloContract = await hre.ethers.getContractFactory("HelloWorld");
 	const helloZuri = await HelloContract.deploy("Hello everyone on the Zuri team!");
 	await helloZuri.deployed();
 	
