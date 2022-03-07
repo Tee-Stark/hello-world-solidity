@@ -12,11 +12,11 @@ contract HelloWorld {
            greet_text = _gt;
 	}
 
-	getGreetText() public view returns (string memory) {
+	function getGreetText() public view returns (string memory) {
 	   return greet_text;
 	}
 
-	setGreetText(string memory new_greet) public {
+	function setGreetText(string memory new_greet) public {
 	   console.log("The hello world greeting text will change from %s to %s", greet_text, new_greet);
 	   greet_text = newGreet;
 	}
