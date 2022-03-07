@@ -8,7 +8,7 @@ const main = async () => {
 	console.log(zuriGreeting);
 
 	await helloZuri.setGreetText("Man! Blockgames has been so good!");
-	console.log("Greeting text has been changed bro! It is now: ", helloZuri.getGreetText());
+	console.log("Greeting text has been changed bro! It is now: ", await helloZuri.getGreetText());
 }
 
 main()
