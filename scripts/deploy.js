@@ -1,4 +1,4 @@
-const main = async => {
+const main = async () => {
 	const [deployer] = await hre.ethers.getSigners();
 	const accBalance = await deployer.getBalance();
 	
@@ -9,7 +9,7 @@ const main = async => {
 	const HelloContract = await HelloContractFactory.deploy();
 
 	await HelloContract.deployed();
-	console.log(`Contract address: ${HelloContract.address});
+	console.log(`Contract address: ${HelloContract.address}`);
 }
 
 main()
