@@ -6,7 +6,7 @@ const main = async () => {
 	console.log(`Account balance: ${accBalance.toString()}`);
 	
 	const HelloContractFactory = await hre.ethers.getContractFactory("HelloWorld");
-	const HelloContract = await HelloContractFactory.deploy();
+	const HelloContract = await HelloContractFactory.deploy("Hello everyone on the Zuri team!");
 
 	await HelloContract.deployed();
 	console.log(`Contract address: ${HelloContract.address}`);
