@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Basic Sample Hello world smart contract Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Smart Contract(Hello world) written with solidity and deployed to the Rinkeby testnet Ethereum network.
 
-Try running some of the following tasks:
+successful deployment verified on [Blockscan](https://blockscan.com/address/0x41Da84f7583Fe82960d5b4fb876D38eD08e671f5)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+contract address: 0x41Da84f7583Fe82960d5b4fb876D38eD08e671f5
