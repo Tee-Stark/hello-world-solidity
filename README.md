@@ -6,6 +6,8 @@ successful deployment verified on [Blockscan](https://blockscan.com/address/0x41
 
 contract address: 0x41Da84f7583Fe82960d5b4fb876D38eD08e671f5
 
+Rinkeby URL: [https://rinkeby.etherscan.io/address/0x41Da84f7583Fe82960d5b4fb876D38eD08e671f5](https://rinkeby.etherscan.io/address/0x41Da84f7583Fe82960d5b4fb876D38eD08e671f5)
+
 ABI can be found in /artifacts/HelloWorld.sol directory
 
 ### For a quick local setup and deploy
